@@ -34,3 +34,18 @@ html, body{
     -webkit-box-align: center;
     padding: 0px;
 }
+
+input{
+    &::placeholder{
+        color: $cinza1;
+        opacity: 1;
+    }
+
+    &:-ms-input-placeholder{
+        color: $cinza2;
+    }
+
+    &::-ms-input-placeholder{
+        color: $cinza2;
+    }
+}
